@@ -4,7 +4,7 @@ import Settings from "../Icons/Settings";
 
 const Footer = () => {
    return ( 
-      <footer className="bg-themeColorTwo h-16 px-6 flex justify-around items-center">
+      <footer className="bg-themeColorTwo h-16 px-20 flex justify-around items-center">
          <Light />
          <Home />
          <Settings />
