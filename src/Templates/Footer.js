@@ -4,10 +4,10 @@ import Settings from "../Icons/Settings";
 
 const Footer = () => {
    return ( 
-      <footer className="bg-themeColorTwo h-16 flex">
+      <footer className="bg-themeColorTwo h-16 px-6 flex justify-around items-center">
+         <Light />
          <Home />
          <Settings />
-         <Light />
       </footer>
     );
 }
