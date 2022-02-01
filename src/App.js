@@ -3,8 +3,10 @@ import Footer from "./Templates/Footer";
 
 function App() {
   return (
-    <div className="App pt-9 px-6 h-screen bg-primary">
-      <Heading />
+    <div className="App h-screen flex flex-col justify-between bg-themeColorOne">
+      <div className="px-6 pt-8">
+       <Heading />
+      </div>
       <Footer />
     </div>
   );
